@@ -1,0 +1,27 @@
+https://github.com/hayden-gregoire/.dotfiles
+It was not super difficult to complete this assignment, as essentially everything that was done
+had been done in previous labs so I was able to recognize all the commands that were needed.
+I already had used github from CSCE 190 so creating the ssh key and a new repository
+was not new or relatively difficult for me. The assignment instructions laid all the steps out
+pretty clearly as well, even providing a good amount of the commands that needed to be used as well.
+The only techincaal difficulty I ran into for the assignment was working too fast and copying the
+commands and I forgot to change the username template to my actual username which gave me an error.
+Aside from that, I was able to move through the assignment quickly and easily. 
+
+Commands from part 4 used:
+cd ~
+mkdir .dotfiles
+ls -a
+cd .dotfiles
+pwd
+touch README.md
+nano README.md
+cat README.md
+nano .nanorc
+cp .nanorc ~/
+git init
+git add --all
+git commit -m "INIT commit"
+git branch -M main
+git remote add origin git@github.com:hayden-gregoire/.dotfiles
+git push -u origin main
